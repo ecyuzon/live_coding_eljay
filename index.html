@@ -7,7 +7,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header class="grid-container">
+        <div class="left-panel grid-item">
+            <span>E</span>
+            <h1>Ehrlich IT Services</h1>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right-panel grid-item">
+            <h1>Hi, Bastian!<h1><span>B</span>
+            <div class="notifications"><p id="notif_ctr">1</p></div>
+        </div>
+        
+    </header>
+    
+
+    <div class="highlight">
+        <h1>Hello World</h1>
+        <button class="btn-notification" onclick="incrementNotifications()">Notification counter</button>
+    </div>
+
+    <div class="form-submit">
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <script src="assets/js/index.js"></script>
+
+
+    
 </body>
 </html>
